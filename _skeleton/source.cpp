@@ -8,6 +8,7 @@ using namespace cv;
 
 int main()
 {
+    std::cout << "<Enter Name of Tutorial Here> (OpenCV: " << CV_VERSION  << ")" << std::endl;
 
     return 0;
 }
