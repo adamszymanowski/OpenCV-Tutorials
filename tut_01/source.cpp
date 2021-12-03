@@ -10,7 +10,6 @@ int main()
 {
     std::cout << "Getting Started with Images (OpenCV: " << CV_VERSION  << ")" << std::endl;
     
-    samples::addSamplesDataSearchPath("/home/adam/opencv/samples/data");
     std::string image_path = samples::findFile("starry_night.jpg");
     Mat img = imread(image_path, IMREAD_COLOR);
 
