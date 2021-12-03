@@ -15,6 +15,8 @@ make
 
 ## Tutorial list
 - Tutorial 01 `tut_01` [Getting Started with Images](https://docs.opencv.org/4.x/db/deb/tutorial_display_image.html)
+- Tutorial 02 [How to scan images, lookup tables and time measurement with OpenCV](https://docs.opencv.org/4.x/db/da5/tutorial_how_to_scan_images.html)
+  * [Full source code](https://github.com/opencv/opencv/blob/master/samples/cpp/tutorial_code/core/how_to_scan_images/how_to_scan_images.cpp)
 
 ## Useful Tips
 
