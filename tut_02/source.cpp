@@ -4,7 +4,6 @@
 #include <opencv2/highgui.hpp>
 
 #include <iostream>
-#include <sstream>
 
 using namespace cv;
 using namespace std;
@@ -33,7 +32,7 @@ int main(int argc, char** argv)
     int divideWith = 96;
 
     uchar table[256];
-    for (int i = 0; i < 256; i++)
+    for (int i = 0; i < 256; ++i)
         table[i] = (uchar)(divideWith * (i/divideWith));
 
     const int times = 100;
@@ -42,7 +41,7 @@ int main(int argc, char** argv)
     // Function 1
     t = (double)getTickCount();
 
-    for (int i = 0; i < times; i++)
+    for (int i = 0; i < times; ++i)
     {
         Mat clone_img = original_img.clone();
         reduced_img_1 = ScanImageAndReduceC(clone_img, table);
@@ -56,7 +55,7 @@ int main(int argc, char** argv)
     // Function 2
     t =(double)getTickCount();
 
-    for (int i = 0; i < times; i++)
+    for (int i = 0; i < times; ++i)
     {
         Mat clone_img = original_img.clone();
         reduced_img_2 = ScanImageAndReduceIterator(clone_img, table);
@@ -70,7 +69,7 @@ int main(int argc, char** argv)
     // Function 3
     t = (double)getTickCount();
 
-    for (int i = 0; i < times; i++)
+    for (int i = 0; i < times; ++i)
     {
         Mat clone_img = original_img.clone();
         reduced_img_3 = ScanImageAndReduceRandomAccess(clone_img, table);
