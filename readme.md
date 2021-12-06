@@ -17,10 +17,13 @@ make
 
 ## Tutorial list
 - Tutorial 01 `tut_01` [Getting Started with Images](https://docs.opencv.org/4.x/db/deb/tutorial_display_image.html)
-- Tutorial 02 [How to scan images, lookup tables and time measurement with OpenCV](https://docs.opencv.org/4.x/db/da5/tutorial_how_to_scan_images.html)
-  * [Full source code](https://github.com/opencv/opencv/blob/master/samples/cpp/tutorial_code/core/how_to_scan_images/how_to_scan_images.cpp)
-- Tutorial 03 [Mask operations on matrices](https://docs.opencv.org/4.x/d7/d37/tutorial_mat_mask_operations.html)
+- Tutorial 02 `tut_02` [How to scan images, lookup tables and time measurement with OpenCV](https://docs.opencv.org/4.x/db/da5/tutorial_how_to_scan_images.html)
+  * [Sample source code](https://github.com/opencv/opencv/blob/master/samples/cpp/tutorial_code/core/how_to_scan_images/how_to_scan_images.cpp)
+- Tutorial 03 `tut_03` [Mask operations on matrices](https://docs.opencv.org/4.x/d7/d37/tutorial_mat_mask_operations.html)
   * NOTE(ASz): maybe try doing your own version here, for comparison
+- Tutorial 04 `tut_04` [Operations with images](https://docs.opencv.org/4.x/d5/d98/tutorial_mat_operations.html)
+  * [Sample source code](https://github.com/opencv/opencv/blob/4.x/samples/cpp/tutorial_code/core/mat_operations/mat_operations.cpp)
+  * NOTE: Use `cv::imdecode` and `cv::imencode` to read and write an image from/to memory rather than a file.
 
 ## Useful Tips
 
