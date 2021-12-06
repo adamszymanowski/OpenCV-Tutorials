@@ -24,6 +24,8 @@ make
 - Tutorial 04 `tut_04` [Operations with images](https://docs.opencv.org/4.x/d5/d98/tutorial_mat_operations.html)
   * [Sample source code](https://github.com/opencv/opencv/blob/4.x/samples/cpp/tutorial_code/core/mat_operations/mat_operations.cpp)
   * NOTE: Use `cv::imdecode` and `cv::imencode` to read and write an image from/to memory rather than a file.
+- Tutorial 05 `tut_05` [Adding (blending) two images using OpenCV](https://docs.opencv.org/4.x/d5/dc4/tutorial_adding_images.html)
+  * [Sample source code](https://github.com/opencv/opencv/blob/4.x/samples/cpp/tutorial_code/core/AddingImages/AddingImages.cpp)
 
 ## Useful Tips
 
