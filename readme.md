@@ -26,6 +26,8 @@ make
   * NOTE: Use `cv::imdecode` and `cv::imencode` to read and write an image from/to memory rather than a file.
 - Tutorial 05 `tut_05` [Adding (blending) two images using OpenCV](https://docs.opencv.org/4.x/d5/dc4/tutorial_adding_images.html)
   * [Sample source code](https://github.com/opencv/opencv/blob/4.x/samples/cpp/tutorial_code/core/AddingImages/AddingImages.cpp)
+- Tutorial 06 `tut_06` [Changing the contrast and brightness of an image!](https://docs.opencv.org/4.x/d3/dc1/tutorial_basic_linear_transform.html)
+  * [Sample Source Code](https://github.com/opencv/opencv/blob/master/samples/cpp/tutorial_code/ImgProc/BasicLinearTransforms.cpp)
 
 ## Useful Tips
 
