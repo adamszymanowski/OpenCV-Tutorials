@@ -30,6 +30,8 @@ make
   * [Sample Source Code](https://github.com/opencv/opencv/blob/master/samples/cpp/tutorial_code/ImgProc/BasicLinearTransforms.cpp)
   * Tutorial 06a `tut_06a` [Sample Source Code: Contrast and Brightness Adjustments, Gamma Correction](https://github.com/opencv/opencv/blob/master/samples/cpp/tutorial_code/ImgProc/changing_contrast_brightness_image/changing_contrast_brightness_image.cpp)
   * Tutorial 06a **TODO** This needs a clean up and gamma correction needs a fix.
+- Tutorial 07 `tut_07` [Discrete Fourier Transform](https://docs.opencv.org/4.x/d8/d01/tutorial_discrete_fourier_transform.html)
+  * [Sample Source Code](https://github.com/opencv/opencv/blob/4.x/samples/cpp/tutorial_code/core/discrete_fourier_transform/discrete_fourier_transform.cpp)
 
 ## Useful Tips
 
