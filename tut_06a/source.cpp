@@ -9,7 +9,8 @@ using namespace cv;
 namespace 
 {
     // Global variables
-    Mat original_image, corrected_image, gamma_corrected_image;
+    struct Images { Mat original, corrected, gamma_corrected; };
+    Images global_image;
     
     struct Parameters { int alpha = 100, beta = 100, gamma = 100; };
     Parameters param;
@@ -35,8 +36,8 @@ namespace
         CV_Assert(!image.empty());
         Mat converted_image;
         image.convertTo(converted_image, -1, alpha, beta);
-        hconcat(image, converted_image, corrected_image);
-        imshow(window_name.brightness_and_contrast, corrected_image);
+        hconcat(image, converted_image, global_image.corrected);
+        imshow(window_name.brightness_and_contrast, global_image.corrected);
     }
 
     void on_linear_transform_alpha_trackbar(int, void *)
@@ -45,7 +46,7 @@ namespace
 
         double alpha_value = param.alpha / 100.0;
         int beta_value = param.beta - 100;
-        basic_linear_transform(original_image, alpha_value, beta_value);
+        basic_linear_transform(global_image.original, alpha_value, beta_value);
     }
 
     void on_linear_transform_beta_trackbar(int, void *)
@@ -54,11 +55,11 @@ namespace
 
         double alpha_value = param.alpha / 100.0;
         int beta_value = param.beta - 100;
-        basic_linear_transform(original_image, alpha_value, beta_value);
+        basic_linear_transform(global_image.original, alpha_value, beta_value);
     }
 
     // gamma correction
-    void gamma_correction(const Mat& image, const double gamma)
+    void gamma_correction(const Mat& image, const float gamma)
     {
         CV_Assert(gamma >= 0);
         CV_Assert(!image.empty());
@@ -74,15 +75,16 @@ namespace
         Mat result_image = image.clone();
         LUT(image, look_up_table, result_image);
 
-        hconcat(image, result_image, gamma_corrected_image);
-        imshow(window_name.gamma, gamma_corrected_image);
+        hconcat(image, result_image, global_image.gamma_corrected);
+        imshow(window_name.gamma, global_image.gamma_corrected);
     }
 
     void on_gamma_correction_trackbar(int, void *)
     {
         param.gamma = getTrackbarPos(trackbar_name.gamma, window_name.gamma);
-        double gamma_value = param.gamma / 100;
-        gamma_correction(original_image, gamma_value);
+        float gamma_value = (param.gamma / 100.0);
+        //std::cout << "g=(" << param.gamma << ", " << gamma_value << ")" << std::endl;
+        gamma_correction(global_image.original, gamma_value);
     }
 }
 
@@ -93,8 +95,8 @@ int main()
 
     // Load image
     std::string filename = samples::findFile("lena.jpg");
-    original_image = imread(filename);
-    if (original_image.empty())
+    global_image.original = imread(filename);
+    if (global_image.original.empty())
     {
         std::cout << "Error reading file: " << filename << std::endl;
         return EXIT_FAILURE;
@@ -108,7 +110,7 @@ int main()
     setTrackbarPos(trackbar_name.brightness, window_name.brightness_and_contrast, param.beta);
 
     namedWindow(window_name.gamma);
-    createTrackbar(trackbar_name.gamma, window_name.gamma, nullptr, 200, on_gamma_correction_trackbar);
+    createTrackbar(trackbar_name.gamma, window_name.gamma, nullptr, 300, on_gamma_correction_trackbar);
     setTrackbarPos(trackbar_name.gamma, window_name.gamma, param.gamma);
 
     waitKey();
