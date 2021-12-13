@@ -32,6 +32,8 @@ make
 - Tutorial 07 `tut_07` [Discrete Fourier Transform](https://docs.opencv.org/4.x/d8/d01/tutorial_discrete_fourier_transform.html)
   * [Sample Source Code](https://github.com/opencv/opencv/blob/4.x/samples/cpp/tutorial_code/core/discrete_fourier_transform/discrete_fourier_transform.cpp)
   * Tutorial 07a `tut_07a` Practice based on **Result** paragraph from Tutorial 07 (using two text images)
+- Tutorial 08 `tut_08` [File Input and Output using XML and YAML files](https://docs.opencv.org/4.x/dd/d74/tutorial_file_input_output_with_xml_yml.html)
+  * [Sample Source Code](https://github.com/opencv/opencv/blob/master/samples/cpp/tutorial_code/core/file_input_output/file_input_output.cpp)
 
 ## Useful Tips
 
