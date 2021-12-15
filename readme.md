@@ -34,6 +34,8 @@ make
   * Tutorial 07a `tut_07a` Practice based on **Result** paragraph from Tutorial 07 (using two text images)
 - Tutorial 08 `tut_08` [File Input and Output using XML and YAML files](https://docs.opencv.org/4.x/dd/d74/tutorial_file_input_output_with_xml_yml.html)
   * [Sample Source Code](https://github.com/opencv/opencv/blob/master/samples/cpp/tutorial_code/core/file_input_output/file_input_output.cpp)
+- Tutorial 09 `tut_09` [How to use the OpenCV parallel_for_ to parallelize your code](https://docs.opencv.org/4.x/dc/ddf/tutorial_how_to_use_OpenCV_parallel_for_new.html)
+  * [Sample Source Code](https://github.com/opencv/opencv/blob/4.x/samples/cpp/tutorial_code/core/how_to_use_OpenCV_parallel_for_/how_to_use_OpenCV_parallel_for_new.cpp)
 
 ## Useful Tips
 
