@@ -16,28 +16,38 @@ make
 ```
 
 ## Tutorial list
-- Tutorial 01 `tut_01` [Getting Started with Images](https://docs.opencv.org/4.x/db/deb/tutorial_display_image.html)
-- Tutorial 02 `tut_02` [How to scan images, lookup tables and time measurement with OpenCV](https://docs.opencv.org/4.x/db/da5/tutorial_how_to_scan_images.html)
-  * [Sample source code](https://github.com/opencv/opencv/blob/master/samples/cpp/tutorial_code/core/how_to_scan_images/how_to_scan_images.cpp)
-- Tutorial 03 `tut_03` [Mask operations on matrices](https://docs.opencv.org/4.x/d7/d37/tutorial_mat_mask_operations.html)
-  * NOTE(ASz): maybe try doing your own version here, for comparison
-- Tutorial 04 `tut_04` [Operations with images](https://docs.opencv.org/4.x/d5/d98/tutorial_mat_operations.html)
-  * [Sample source code](https://github.com/opencv/opencv/blob/4.x/samples/cpp/tutorial_code/core/mat_operations/mat_operations.cpp)
-  * NOTE: Use `cv::imdecode` and `cv::imencode` to read and write an image from/to memory rather than a file.
-- Tutorial 05 `tut_05` [Adding (blending) two images using OpenCV](https://docs.opencv.org/4.x/d5/dc4/tutorial_adding_images.html)
-  * [Sample source code](https://github.com/opencv/opencv/blob/4.x/samples/cpp/tutorial_code/core/AddingImages/AddingImages.cpp)
-- Tutorial 06 `tut_06` [Changing the contrast and brightness of an image!](https://docs.opencv.org/4.x/d3/dc1/tutorial_basic_linear_transform.html)
-  * [Sample Source Code](https://github.com/opencv/opencv/blob/master/samples/cpp/tutorial_code/ImgProc/BasicLinearTransforms.cpp)
-  * Tutorial 06a `tut_06a` [Sample Source Code: Contrast and Brightness Adjustments, Gamma Correction](https://github.com/opencv/opencv/blob/master/samples/cpp/tutorial_code/ImgProc/changing_contrast_brightness_image/changing_contrast_brightness_image.cpp)
-- Tutorial 07 `tut_07` [Discrete Fourier Transform](https://docs.opencv.org/4.x/d8/d01/tutorial_discrete_fourier_transform.html)
-  * [Sample Source Code](https://github.com/opencv/opencv/blob/4.x/samples/cpp/tutorial_code/core/discrete_fourier_transform/discrete_fourier_transform.cpp)
-  * Tutorial 07a `tut_07a` Practice based on **Result** paragraph from Tutorial 07 (using two text images)
-- Tutorial 08 `tut_08` [File Input and Output using XML and YAML files](https://docs.opencv.org/4.x/dd/d74/tutorial_file_input_output_with_xml_yml.html)
-  * [Sample Source Code](https://github.com/opencv/opencv/blob/master/samples/cpp/tutorial_code/core/file_input_output/file_input_output.cpp)
-- Tutorial 09 `tut_09` [How to use the OpenCV parallel_for_ to parallelize your code](https://docs.opencv.org/4.x/dc/ddf/tutorial_how_to_use_OpenCV_parallel_for_new.html)
-  * [Sample Source Code](https://github.com/opencv/opencv/blob/4.x/samples/cpp/tutorial_code/core/how_to_use_OpenCV_parallel_for_/how_to_use_OpenCV_parallel_for_new.cpp)
-- Tutorial 10 `tut10` [Vectorizing your code using Universal Intrinsics](https://docs.opencv.org/4.x/d6/dd1/tutorial_univ_intrin.html)
-  * [Sample Source Code](https://github.com/opencv/opencv/blob/4.x/samples/cpp/tutorial_code/core/univ_intrin/univ_intrin.cpp)
+* [The Core Functionality](https://docs.opencv.org/4.x/de/d7a/tutorial_table_of_content_core.html)
+
+  - Tutorial 01 `tut_01` [Getting Started with Images](https://docs.opencv.org/4.x/db/deb/tutorial_display_image.html)
+  - Tutorial 02 `tut_02` [How to scan images, lookup tables and time measurement with OpenCV](https://docs.opencv.org/4.x/db/da5/tutorial_how_to_scan_images.html)
+    * [Sample source code](https://github.com/opencv/opencv/blob/master/samples/cpp/tutorial_code/core/how_to_scan_images/how_to_scan_images.cpp)
+  - Tutorial 03 `tut_03` [Mask operations on matrices](https://docs.opencv.org/4.x/d7/d37/tutorial_mat_mask_operations.html)
+    * NOTE(ASz): maybe try doing your own version here, for comparison
+  - Tutorial 04 `tut_04` [Operations with images](https://docs.opencv.org/4.x/d5/d98/tutorial_mat_operations.html)
+    * [Sample source code](https://github.com/opencv/opencv/blob/4.x/samples/cpp/tutorial_code/core/mat_operations/mat_operations.cpp)
+    * NOTE: Use `cv::imdecode` and `cv::imencode` to read and write an image from/to memory rather than a file.
+  - Tutorial 05 `tut_05` [Adding (blending) two images using OpenCV](https://docs.opencv.org/4.x/d5/dc4/tutorial_adding_images.html)
+    * [Sample source code](https://github.com/opencv/opencv/blob/4.x/samples/cpp/tutorial_code/core/AddingImages/AddingImages.cpp)
+  - Tutorial 06 `tut_06` [Changing the contrast and brightness of an image!](https://docs.opencv.org/4.x/d3/dc1/tutorial_basic_linear_transform.html)
+    * [Sample Source Code](https://github.com/opencv/opencv/blob/master/samples/cpp/tutorial_code/ImgProc/BasicLinearTransforms.cpp)
+    * Tutorial 06a `tut_06a` [Sample Source Code: Contrast and Brightness Adjustments, Gamma Correction](https://github.com/opencv/opencv/blob/master/samples/cpp/tutorial_code/ImgProc/changing_contrast_brightness_image/changing_contrast_brightness_image.cpp)
+  - Tutorial 07 `tut_07` [Discrete Fourier Transform](https://docs.opencv.org/4.x/d8/d01/tutorial_discrete_fourier_transform.html)
+    * [Sample Source Code](https://github.com/opencv/opencv/blob/4.x/samples/cpp/tutorial_code/core/discrete_fourier_transform/discrete_fourier_transform.cpp)
+    * Tutorial 07a `tut_07a` Practice based on **Result** paragraph from Tutorial 07 (using two text images)
+  - Tutorial 08 `tut_08` [File Input and Output using XML and YAML files](https://docs.opencv.org/4.x/dd/d74/tutorial_file_input_output_with_xml_yml.html)
+    * [Sample Source Code](https://github.com/opencv/opencv/blob/master/samples/cpp/tutorial_code/core/file_input_output/file_input_output.cpp)
+  - Tutorial 09 `tut_09` [How to use the OpenCV parallel_for_ to parallelize your code](https://docs.opencv.org/4.x/dc/ddf/tutorial_how_to_use_OpenCV_parallel_for_new.html)
+    * [Sample Source Code](https://github.com/opencv/opencv/blob/4.x/samples/cpp/tutorial_code/core/how_to_use_OpenCV_parallel_for_/how_to_use_OpenCV_parallel_for_new.cpp)
+  - Tutorial 10 `tut_10` [Vectorizing your code using Universal Intrinsics](https://docs.opencv.org/4.x/d6/dd1/tutorial_univ_intrin.html)
+    * [Sample Source Code](https://github.com/opencv/opencv/blob/4.x/samples/cpp/tutorial_code/core/univ_intrin/univ_intrin.cpp)
+
+* [Image Processing (imgproc module)](https://docs.opencv.org/4.x/d7/da8/tutorial_table_of_content_imgproc.html)
+  
+  - Tutorial 11 `tut_11` [Basic Drawing](https://docs.opencv.org/4.x/d3/d96/tutorial_basic_geometric_drawing.html)
+    * [Sample Source Code](https://github.com/opencv/opencv/blob/4.x/samples/cpp/tutorial_code/ImgProc/basic_drawing/Drawing_1.cpp)
+  - Tutorial 11 `tut_12` []()
+    * [Sample Source Code](https://github.com/opencv/opencv/blob/4.x/samples/cpp/tutorial_code/ImgProc/basic_drawing/Drawing_2.cpp)
+
 
 ## Useful Tips
 
