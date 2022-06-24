@@ -36,10 +36,13 @@ make
   * [Sample Source Code](https://github.com/opencv/opencv/blob/master/samples/cpp/tutorial_code/core/file_input_output/file_input_output.cpp)
 - Tutorial 09 `tut_09` [How to use the OpenCV parallel_for_ to parallelize your code](https://docs.opencv.org/4.x/dc/ddf/tutorial_how_to_use_OpenCV_parallel_for_new.html)
   * [Sample Source Code](https://github.com/opencv/opencv/blob/4.x/samples/cpp/tutorial_code/core/how_to_use_OpenCV_parallel_for_/how_to_use_OpenCV_parallel_for_new.cpp)
+- Tutorial 10 `tut10` [Vectorizing your code using Universal Intrinsics](https://docs.opencv.org/4.x/d6/dd1/tutorial_univ_intrin.html)
+  * [Sample Source Code](https://github.com/opencv/opencv/blob/4.x/samples/cpp/tutorial_code/core/univ_intrin/univ_intrin.cpp)
 
 ## Useful Tips
 
-`git status -uall`
+- `git status -uall`
+- Bit Hack: "even floor" `magnitude_image.cols & -2`
 
 ## How to build OpenCV 4.5.4-dev
 Scratchpad notes version
