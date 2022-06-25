@@ -45,7 +45,7 @@ make
   
   - Tutorial 11 `tut_11` [Basic Drawing](https://docs.opencv.org/4.x/d3/d96/tutorial_basic_geometric_drawing.html)
     * [Sample Source Code](https://github.com/opencv/opencv/blob/4.x/samples/cpp/tutorial_code/ImgProc/basic_drawing/Drawing_1.cpp)
-  - Tutorial 11 `tut_12` []()
+  - Tutorial 12 `tut_12` [Random generator and text with OpenCV](https://docs.opencv.org/4.x/df/d61/tutorial_random_generator_and_text.html)
     * [Sample Source Code](https://github.com/opencv/opencv/blob/4.x/samples/cpp/tutorial_code/ImgProc/basic_drawing/Drawing_2.cpp)
 
 
