@@ -47,6 +47,7 @@ make
     * [Sample Source Code](https://github.com/opencv/opencv/blob/4.x/samples/cpp/tutorial_code/ImgProc/basic_drawing/Drawing_1.cpp)
   - Tutorial 12 `tut_12` [Random generator and text with OpenCV](https://docs.opencv.org/4.x/df/d61/tutorial_random_generator_and_text.html)
     * [Sample Source Code](https://github.com/opencv/opencv/blob/4.x/samples/cpp/tutorial_code/ImgProc/basic_drawing/Drawing_2.cpp)
+    * Tutorial 12a `tut_12a` Refactoring of `tut_12`
 
 
 ## Useful Tips
