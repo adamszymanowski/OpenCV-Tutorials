@@ -51,6 +51,10 @@ make
   - Tutorial 13 `tut_13` [Smoothing Images](https://docs.opencv.org/4.x/dc/dd3/tutorial_gausian_median_blur_bilateral_filter.html)
     * [Sample Source Code](https://github.com/opencv/opencv/blob/4.x/samples/cpp/tutorial_code/ImgProc/Smoothing/Smoothing.cpp)
     * modified to my needs
+  - Tutorial 14 `tut_14` [Eroding and Dilating](https://docs.opencv.org/4.x/db/df6/tutorial_erosion_dilatation.html)
+    * [Sample Source Code](https://github.com/opencv/opencv/blob/4.x/samples/cpp/tutorial_code/ImgProc/Morphology_1.cpp)
+    * this one required modification, since `cv::createTrackbar` works in a different way now (tutorial is wrong).
+  - Tutorial 15 `tut_15` []()
 
 
 ## Useful Tips
