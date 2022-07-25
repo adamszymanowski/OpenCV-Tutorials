@@ -54,7 +54,9 @@ make
   - Tutorial 14 `tut_14` [Eroding and Dilating](https://docs.opencv.org/4.x/db/df6/tutorial_erosion_dilatation.html)
     * [Sample Source Code](https://github.com/opencv/opencv/blob/4.x/samples/cpp/tutorial_code/ImgProc/Morphology_1.cpp)
     * this one required modification, since `cv::createTrackbar` works in a different way now (tutorial is wrong).
-  - Tutorial 15 `tut_15` []()
+  - Tutorial 15 `tut_15` [More Morphology Transformations](https://docs.opencv.org/4.x/d3/dbe/tutorial_opening_closing_hats.html)
+    * [Sample Source Code](https://github.com/opencv/opencv/blob/4.x/samples/cpp/tutorial_code/ImgProc/Morphology_2.cpp)
+    * as above, this one required modification, since `cv::createTrackbar` works in a different way now (tutorial is wrong).
 
 
 ## Useful Tips
