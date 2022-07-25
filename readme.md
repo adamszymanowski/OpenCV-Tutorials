@@ -59,6 +59,8 @@ make
     * as above, this one required modification, since `cv::createTrackbar` works in a different way now (tutorial is wrong).
   - Tutorial 16 `tut_16` [Hit-or-Miss](https://docs.opencv.org/4.x/db/d06/tutorial_hitOrMiss.html)
     * [Sample Source Code](https://github.com/opencv/opencv/blob/4.x/samples/cpp/tutorial_code/ImgProc/HitMiss/HitMiss.cpp)
+  - Tutorial 17 `tut_17` [Extract horizontal and vertical lines by using morphological operations](https://docs.opencv.org/4.x/d7/da8/tutorial_table_of_content_imgproc.html)
+    * [Sample Source Code](https://github.com/opencv/opencv/blob/4.x/samples/cpp/tutorial_code/ImgProc/morph_lines_detection/Morphology_3.cpp)
 
 
 ## Useful Tips
@@ -69,18 +71,13 @@ make
 ## How to build OpenCV 4.5.4-dev
 Scratchpad notes version
 
-Is this really necessary?
-`sudo apt install libgtk2.0-dev pkg-config`
+`sudo apt install libgtk-3-dev pkg-config`
 
-This seems to to the job
-`sudo apt install libgtk-3-dev`
-
-Probably `PYTHON` stuff isn't really needed, but oh well.
 `cmake -D CMAKE_BUILD_TYPE=RELEASE -D CMAKE_INSTALL_PREFIX=/usr/local -D WITH_TBB=ON -D BUILD_NEW_PYTHON_SUPPORT=ON -D WITH_V4L=ON -D INSTALL_C_EXAMPLES=ON -D INSTALL_PYTHON_EXAMPLES=ON -D BUILD_EXAMPLES=ON -D WITH_QT=ON -D WITH_GTK=ON -D WITH_OPENGL=ON ../opencv`
 
-After cloning OpenCv into `~/opencv`
+After cloning OpenCV into `~/opencv`
 
-`mkdir build && cd build` This should have a better name, but oh well.
+`mkdir build && cd build`
 
 `sudo cmake ../opencv`
 
