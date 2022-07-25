@@ -57,6 +57,8 @@ make
   - Tutorial 15 `tut_15` [More Morphology Transformations](https://docs.opencv.org/4.x/d3/dbe/tutorial_opening_closing_hats.html)
     * [Sample Source Code](https://github.com/opencv/opencv/blob/4.x/samples/cpp/tutorial_code/ImgProc/Morphology_2.cpp)
     * as above, this one required modification, since `cv::createTrackbar` works in a different way now (tutorial is wrong).
+  - Tutorial 16 `tut_16` [Hit-or-Miss](https://docs.opencv.org/4.x/db/d06/tutorial_hitOrMiss.html)
+    * [Sample Source Code](https://github.com/opencv/opencv/blob/4.x/samples/cpp/tutorial_code/ImgProc/HitMiss/HitMiss.cpp)
 
 
 ## Useful Tips
