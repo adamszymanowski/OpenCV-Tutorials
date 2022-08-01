@@ -61,7 +61,8 @@ make
     * [Sample Source Code](https://github.com/opencv/opencv/blob/4.x/samples/cpp/tutorial_code/ImgProc/HitMiss/HitMiss.cpp)
   - Tutorial 17 `tut_17` [Extract horizontal and vertical lines by using morphological operations](https://docs.opencv.org/4.x/d7/da8/tutorial_table_of_content_imgproc.html)
     * [Sample Source Code](https://github.com/opencv/opencv/blob/4.x/samples/cpp/tutorial_code/ImgProc/morph_lines_detection/Morphology_3.cpp)
-
+  - Tutorial 18 `tut_18  [Image Pyramids](https://docs.opencv.org/4.x/d4/d1f/tutorial_pyramids.html)
+    * [Sample Source Code](https://github.com/opencv/opencv/blob/4.x/samples/cpp/tutorial_code/ImgProc/Pyramids/Pyramids.cpp)
 
 ## Useful Tips
 
