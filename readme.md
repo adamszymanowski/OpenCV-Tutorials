@@ -66,6 +66,8 @@ make
   - Tutorial 19 `tut_19` [Basic Thresholding Operations](https://docs.opencv.org/4.x/db/d8e/tutorial_threshold.html)
     * [Sample Source Code](https://github.com/opencv/opencv/blob/4.x/samples/cpp/tutorial_code/ImgProc/Threshold.cpp)
     * as above, this one required modification, since `cv::createTrackbar` works in a different way now (tutorial is wrong).
+  - Tutorial 20 `tut_20` [Thresholding Operations using inRange](https://docs.opencv.org/4.x/da/d97/tutorial_threshold_inRange.html)
+    * [Sample Source Code](https://github.com/opencv/opencv/blob/4.x/samples/cpp/tutorial_code/ImgProc/Threshold_inRange.cpp)
 
 
 ## Useful Tips
