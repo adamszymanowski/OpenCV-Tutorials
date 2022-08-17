@@ -68,6 +68,8 @@ make
     * as above, this one required modification, since `cv::createTrackbar` works in a different way now (tutorial is wrong).
   - Tutorial 20 `tut_20` [Thresholding Operations using inRange](https://docs.opencv.org/4.x/da/d97/tutorial_threshold_inRange.html)
     * [Sample Source Code](https://github.com/opencv/opencv/blob/4.x/samples/cpp/tutorial_code/ImgProc/Threshold_inRange.cpp)
+  - Tutorial 21 `tut_21` [Making your own linear filters!](https://docs.opencv.org/4.x/d4/dbd/tutorial_filter_2d.html)
+    * [Sample Source Code](https://github.com/opencv/opencv/blob/4.x/samples/cpp/tutorial_code/ImgTrans/filter2D_demo.cpp)
 
 
 ## Useful Tips
